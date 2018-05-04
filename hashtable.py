@@ -17,5 +17,38 @@
 """
 
 
+def hash():
+	pass
+
+class HashTable(object):
+	
+	# init with 2 variables capacity and load
+	def __init__(self, capacity, load):
+		self.capacity = capacity
+		self.load = load
+		self.current_capacity = 0
+		self.slots = [None] * capacity
+
+	def set(self, key, value):
+		pass
+
+	def get(self,key):
+		pass
+
+
+class HashEntry(object):
+	def __init__(self, key, value):
+		self.key = key
+		self.value = value
+		# final item in linkedlist point to None
+		self.next = None
+
+		
+
+
+
+
+
+
 
 
